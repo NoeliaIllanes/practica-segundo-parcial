@@ -1,0 +1,39 @@
+/* Componente.css */
+.componente {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton {
+  background-color: rebeccapurple;
+  color: rgb(12, 12, 12);
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.texto {
+  display: none;
+  color: #000000;
+
+}
+
+.texto.mostrar {
+  display: block;
+  
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+    display: none;
+  }
+  50% {
+    opacity: 1;
+    display: block;
+  }
+}
